@@ -8,11 +8,15 @@ flanT5 and mT5 Bangla text summarization models were trained for Domain Adaptati
 The models were evaluated on zero-shot settings in 3 domains: state, international, and sports. The flant5-international-domain_model scored a rouge score of 0.67, showing its capability to perform well under zero-shot conditions. 
 
 Datasets:
+
 Custom dataset: https://huggingface.co/datasets/midnightGlow/BanglaSumXL_Categories
+
 BanglaMCT&: https://www.kaggle.com/datasets/shohanursobuj/banglamct
 
 Models Used:
+
 flant5: https://huggingface.co/google/flan-t5-small
+
 mt5: https://huggingface.co/google/mt5-base
 
 
