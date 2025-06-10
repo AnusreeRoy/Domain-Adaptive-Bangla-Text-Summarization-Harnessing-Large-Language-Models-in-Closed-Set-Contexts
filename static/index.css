@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 164, 112);
+}
+
+.nav{
+ background-color: white;
+ height:60px;
+ box-shadow: 1px 1px 8px rgb(92, 89, 89);
+}
+.nav h1{
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(40, 73, 53);
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 10px;
+
+}
+.input{
+    background-color: rgb(252, 251, 235);
+    height: 30pc;
+    width: 30pc;
+    box-shadow:1px 1px 8px rgb(92, 89, 89);
+    border-radius: 10px;
+}
+.input textarea{
+    height: 18pc;
+    width: 24pc;
+    position: relative;
+    left: 3pc;
+    margin-top: 20px;
+}
+.output{
+    background-color: rgb(252, 251, 235);
+    height: 30pc;
+    width: 30pc;
+    box-shadow:1px 1px 8px rgb(92, 89, 89);
+    border-radius: 10px;
+}
+.input p{
+    font-size: 20px;
+    color: rgb(99, 93, 93);
+    padding: 20px;
+}
+
+.output h3{
+    font-size: 20px;
+    color: rgb(99, 93, 93);
+    padding: 20px;
+}
+
+#summary{
+ font-size: 13px;
+ padding: 20px;
+}
+
+.input button{
+    height: 35px;
+    width:80px;
+    border-radius:10px;
+    border-color: rgb(66, 151, 79);
+    /* box-shadow: 1px 1px 6px rgb(103, 100, 100); */
+    background-color: rgb(91, 159, 91);
+    position:absolute;
+    bottom:170px;
+    left: 40pc;
+    color: white;
+}
+button:hover {
+   background-color: rgb(133, 195, 158);
+}
